@@ -111,12 +111,14 @@ phraselist = ["Master Skywalker, did you know that in terms of human pokemon bre
 "Everything you create of value will be stolen by an LLM and recycled back at someone without crediting you, so be sure to only make things which are incredibly gross",
 "When you have no good ideas simply write down whatever comes to mind to remind yourself that yes, you have no good ideas",
 "When a friend asks you to do them a favour that you know is important, never forget to",
+"GO TO THE ELF'S WORLD WELCOME! EVERYONE CALL ME ELF MONSTER",
 ]
 
 endnumber = len(phraselist)
 randomnumber = random.randint(0, endnumber-1)
 
 print(phraselist[randomnumber])
+
 
 
 
